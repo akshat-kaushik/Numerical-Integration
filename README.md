@@ -6,7 +6,7 @@
 <ol>
 <li>
 <dl>
-<h2><dt>Trapezoidal Rule</dt></h2>
+<dt><h2>Trapezoidal Rule</h2></dt>
     <dd>The Trapezoidal Rule is a simple and popular way to estimate the value of an integral when solving it exactly is tricky. The idea is to break the area under the curve into small trapezoids (shapes with two parallel sides) instead of dealing with the curve directly. Since calculating the area of a trapezoid is easier, this method helps us get a close approximation of the actual integral.</dd>
 </dl>
 <BR>
@@ -24,7 +24,7 @@
 </li>
 <li>
 <dl>
-<h2><dt>Simpson's 1/3 Rule</dt></h2>
+<dt><h2>Simpson's 1/3 Rule</h2></dt>
     <dd>Simpson's 1/3 Rule is a popular method for numerical integration that provides a more accurate approximation of a definite integral compared to the Trapezoidal Rule. It works by approximating the curve of the function using parabolic segments, which fit the shape of the curve better than straight lines.</dd>
 </dl>
 <BR>
@@ -46,7 +46,7 @@
 </li>
 <li>
 <dl>
-<h2><dt>Simpson's 3/8 rule</dt></h2>
+<dt><h2>Simpson's 3/8 rule</h2></dt>
     <dd>This is another method for numerical integration, similar to Simpson's 1/3 Rule, but it uses cubic polynomials (third-degree) instead of parabolas for approximation. It works best for cases where the number of subintervals is a multiple of 3.</dd>
 </dl>
 <BR>
