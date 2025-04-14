@@ -1,21 +1,29 @@
-====================NUMERICAL-INTEGRATION====================
+<h1>NUMERICAL INTEGRATION</h1>
 <BR>
-This is a C program used to calculate the approximate value of an integral when an exact solution is difficult or impossible to obtain analytically. 
+<p>This is a C program used to calculate the approximate value of an integral when an exact solution is difficult or impossible to obtain analytically.</p>
 <BR>
-In this program we have used 3 basic methods to solve integral:-<BR>
-1. Trapezoidal Rule:-<BR>
-    The Trapezoidal Rule is a simple and popular way to estimate the value of an integral when solving it exactly is tricky. The idea is to break the area under the curve into small trapezoids (shapes with two parallel sides) instead of dealing with the curve directly. Since calculating the area of a trapezoid is easier, this method helps us get a close approximation of the actual integral.
+<ol>
+<p>In this program we have used 3 basic methods to solve integral:-</p>
+<BR>
+<li>
+<dl>
+<dt>Trapezoidal Rule:-</dt>
+    <dd>The Trapezoidal Rule is a simple and popular way to estimate the value of an integral when solving it exactly is tricky. The idea is to break the area under the curve into small trapezoids (shapes with two parallel sides) instead of dealing with the curve directly. Since calculating the area of a trapezoid is easier, this method helps us get a close approximation of the actual integral.</dd>
+</dl>
+<BR>
+<ul>
+    <p>Concept:</p>
+    <li>The interval ([a, b]) is divided into (n) subintervals of equal width (h).</li>
+    <li>The values of the function (f(x)) are calculated at the endpoints of each subinterval.</li>
+    <li>By connecting these points with straight lines, trapezoids are formed.</li>
+    <li>The areas of these trapezoids are then summed to approximate the total area under the curve.</li>
     <BR>
-    Concept:
-    a. The interval ([a, b]) is divided into (n) subintervals of equal width (h).
-    b. The values of the function (f(x)) are calculated at the endpoints of each subinterval.
-    c. By connecting these points with straight lines, trapezoids are formed.
-    d. The areas of these trapezoids are then summed to approximate the total area under the curve.
-    <BR>
-    Formula:
-        ∫ba f(x) dx = Area Under the Curve = (Δx/2) [y0 + 2 (y1 + y2 + y3 + ….. + yn-1) + yn]
-        where Δx = (b – a)/n
-    <BR>
+    <li>Formula:<BR>
+        <p>∫ba f(x) dx = Area Under the Curve = (Δx/2) [y0 + 2 (y1 + y2 + y3 + ….. + yn-1) + yn]</p>
+        <p>where Δx = (b – a)/n</p>
+    </li>
+</ul>        
+</li>
 2. Simpson's 1/3 Rule:-<BR>
     Simpson's 1/3 Rule is a popular method for numerical integration that provides a more accurate approximation of a definite integral compared to the Trapezoidal Rule. It works by approximating the curve of the function using parabolic segments, which fit the shape of the curve better than straight lines.
     <BR>
@@ -44,7 +52,7 @@ In this program we have used 3 basic methods to solve integral:-<BR>
     Formula:
         ₐ∫ᵇ f (x) dx = 3h/8[(y₀ + yₙ) + 3(y₁ + y₂ + y₄ + …) + 2(y₃ + y₆ +…)]
     <BR>
-
+</ol>
 You can execute the program ./main command.
 <BR>
 Conclusion:-
