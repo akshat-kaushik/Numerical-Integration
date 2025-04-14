@@ -4,7 +4,6 @@
 <BR>
 <ol>
 <p>In this program we have used 3 basic methods to solve integral:-</p>
-<BR>
 <li>
 <dl>
 <dt>Trapezoidal Rule:-</dt>
@@ -18,10 +17,10 @@
     <li>By connecting these points with straight lines, trapezoids are formed.</li>
     <li>The areas of these trapezoids are then summed to approximate the total area under the curve.</li>
     <BR>
-    <li>Formula:<BR>
+    <p>Formula:<BR>
         <p>∫ba f(x) dx = Area Under the Curve = (Δx/2) [y0 + 2 (y1 + y2 + y3 + ….. + yn-1) + yn]</p>
         <p>where Δx = (b – a)/n</p>
-    </li>
+    </p>
 </ul>        
 </li>
 2. Simpson's 1/3 Rule:-<BR>
